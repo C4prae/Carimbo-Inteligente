@@ -1,0 +1,203 @@
+{
+  "pdf": "C:\\Users\\luizf\\Desktop\\Carimbo-Inteligente\\test_images\\teste (2).pdf",
+  "pagina": 0,
+  "modelo": "qwen2.5vl:7b",
+  "semente": 321998670,
+  "faixa_ruido": [
+    0.1,
+    0.6
+  ],
+  "prob_sobreposicao": 0.3,
+  "resposta_bruta_modelo": {
+    "cns": "127260",
+    "matricula": "127260.01.55.2007.1.00051.175.0078777-41",
+    "titulo_cartorio": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "oficial": "Camila Ferreira Campos",
+    "escrevente": "Patrícia Ribeiro Martins",
+    "cargo": "ESCREVENTE AUTORIZADO",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "endereco": "Avenida Eduardo Ribeiro, nº 86, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "27/03/2013"
+  },
+  "texto_bruto_modelo": "{\n  \"cns\": \"127260\",\n  \"matricula\": \"127260.01.55.2007.1.00051.175.0078777-41\",\n  \"titulo_cartorio\": \"REGISTRO CIVIL DAS PESSOAS NATURAIS\",\n  \"oficial\": \"Camila Ferreira Campos\",\n  \"escrevente\": \"Patrícia Ribeiro Martins\",\n  \"cargo\": \"ESCREVENTE AUTORIZADO\",\n  \"cidade\": \"Manaus\",\n  \"uf\": \"AM\",\n  \"endereco\": \"Avenida Eduardo Ribeiro, nº 86, Centro, CEP 69005-040, Manaus - AM\",\n  \"data_emissao\": \"27/03/2013\"\n}",
+  "campos_extraidos": {
+    "cns": "127260",
+    "uf": "AM",
+    "cidade": "Manaus",
+    "oficial": "Camila Ferreira Campos",
+    "escrevente": "Patrícia Ribeiro Martins",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "cargo": "ESCREVENTE AUTORIZADO",
+    "endereco": "Avenida Eduardo Ribeiro, nº 86, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "27/03/2013"
+  },
+  "campos_descartados": {},
+  "notas": [],
+  "dados_finais": {
+    "cns": "127260",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "oficial": "Camila Ferreira Campos",
+    "cargo": "ESCREVENTE AUTORIZADO",
+    "escrevente": "Patrícia Ribeiro Martins",
+    "endereco": "Avenida Eduardo Ribeiro, nº 86, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "27/03/2013",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+  },
+  "origem_dos_campos": {
+    "cns": "extraido",
+    "cidade": "extraido",
+    "uf": "extraido",
+    "oficial": "extraido",
+    "cargo": "extraido",
+    "escrevente": "extraido",
+    "endereco": "extraido",
+    "data_emissao": "extraido",
+    "titulo": "extraido"
+  },
+  "carimbos": [
+    {
+      "semente": 321999670,
+      "tipo": "redondo",
+      "cor": "azul",
+      "ruido": 0.21,
+      "rotacao": -7.29,
+      "dados": {
+        "cns": "127260",
+        "cidade": "Manaus",
+        "uf": "AM",
+        "oficial": "Camila Ferreira Campos",
+        "cargo": "ESCREVENTE AUTORIZADO",
+        "escrevente": "Patrícia Ribeiro Martins",
+        "endereco": "Avenida Eduardo Ribeiro, nº 86, Centro, CEP 69005-040, Manaus - AM",
+        "data_emissao": "27/03/2013",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "pontos",
+        "rotulo_cns": "CNS",
+        "forma_local": "parenteses",
+        "separador_linha": " · ",
+        "escala_fonte": 0.989,
+        "ordem": [
+          "titulo",
+          "serventia",
+          "filete",
+          "responsavel",
+          "endereco",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "{cidade}, ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "oficial",
+        "centro": "data",
+        "aneis": "duplo_fino",
+        "separador_arco": "traco",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (2)_carimbo_redondo.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 150,
+        "y": 72,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 282,
+        "altura_px": 282,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    },
+    {
+      "semente": 322000670,
+      "tipo": "retangular",
+      "cor": "azul",
+      "ruido": 0.47,
+      "rotacao": -5.72,
+      "dados": {
+        "cns": "127260",
+        "cidade": "Manaus",
+        "uf": "AM",
+        "oficial": "Camila Ferreira Campos",
+        "cargo": "ESCREVENTE AUTORIZADO",
+        "escrevente": "Patrícia Ribeiro Martins",
+        "endereco": "Avenida Eduardo Ribeiro, nº 86, Centro, CEP 69005-040, Manaus - AM",
+        "data_emissao": "27/03/2013",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "numerico",
+        "rotulo_cns": "Serventia",
+        "forma_local": "barra",
+        "separador_linha": " · ",
+        "escala_fonte": 1.023,
+        "ordem": [
+          "titulo",
+          "filete",
+          "endereco",
+          "filete",
+          "serventia",
+          "filete",
+          "responsavel",
+          "filete",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_reta",
+        "rotulo_oficial": "Oficial Titular: ",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente Autorizado(a): ",
+        "prefixo_data": "Data: ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "local",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (2)_carimbo_retangular.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 588,
+        "y": 1746,
+        "nivel": 0,
+        "cobertura_texto": 8e-05,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 579,
+        "altura_px": 359,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    }
+  ],
+  "documento_carimbado": "docs/teste (2)_carimbado.png"
+}

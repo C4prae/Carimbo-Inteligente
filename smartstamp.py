@@ -76,7 +76,7 @@ class SmartStamp:
 
         print("[-] Identificação concluída")
 
-    def isolateStamp(self, conf_min=None):
+    def cropStamp (self, conf_min=None):
         """Recorta os carimbos detectados com confiança acima de conf_min."""
         if self.results is None:
             print("Erro: Execute primeiro o método findStamp()!")

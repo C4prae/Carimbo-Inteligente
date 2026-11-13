@@ -1,0 +1,203 @@
+{
+  "pdf": "C:\\Users\\luizf\\Desktop\\Carimbo-Inteligente\\test_images\\teste (1).pdf",
+  "pagina": 0,
+  "modelo": "qwen2.5vl:7b",
+  "semente": 1860983230,
+  "faixa_ruido": [
+    0.1,
+    0.6
+  ],
+  "prob_sobreposicao": 0.3,
+  "resposta_bruta_modelo": {
+    "cns": "175558",
+    "matricula": "175558.01.55.1995.1.00224.191.0185050-12",
+    "titulo_cartorio": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "oficial": "Heloísa Pinto Lopes",
+    "escrevente": "Rafael Rodrigues Cardoso",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "endereco": "Praça da Sé, nº 258, Sé, CEP 01001-000, São Paulo - SP",
+    "data_emissao": "07/07/2013"
+  },
+  "texto_bruto_modelo": "{\n  \"cns\": \"175558\",\n  \"matricula\": \"175558.01.55.1995.1.00224.191.0185050-12\",\n  \"titulo_cartorio\": \"REGISTRO CIVIL DAS PESSOAS NATURAIS\",\n  \"oficial\": \"Heloísa Pinto Lopes\",\n  \"escrevente\": \"Rafael Rodrigues Cardoso\",\n  \"cargo\": \"OFICIAL SUBSTITUTO\",\n  \"cidade\": \"São Paulo\",\n  \"uf\": \"SP\",\n  \"endereco\": \"Praça da Sé, nº 258, Sé, CEP 01001-000, São Paulo - SP\",\n  \"data_emissao\": \"07/07/2013\"\n}",
+  "campos_extraidos": {
+    "cns": "175558",
+    "uf": "SP",
+    "cidade": "São Paulo",
+    "oficial": "Heloísa Pinto Lopes",
+    "escrevente": "Rafael Rodrigues Cardoso",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "endereco": "Praça da Sé, nº 258, Sé, CEP 01001-000, São Paulo - SP",
+    "data_emissao": "07/07/2013"
+  },
+  "campos_descartados": {},
+  "notas": [],
+  "dados_finais": {
+    "cns": "175558",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "oficial": "Heloísa Pinto Lopes",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "escrevente": "Rafael Rodrigues Cardoso",
+    "endereco": "Praça da Sé, nº 258, Sé, CEP 01001-000, São Paulo - SP",
+    "data_emissao": "07/07/2013",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+  },
+  "origem_dos_campos": {
+    "cns": "extraido",
+    "cidade": "extraido",
+    "uf": "extraido",
+    "oficial": "extraido",
+    "cargo": "extraido",
+    "escrevente": "extraido",
+    "endereco": "extraido",
+    "data_emissao": "extraido",
+    "titulo": "extraido"
+  },
+  "carimbos": [
+    {
+      "semente": 1860984230,
+      "tipo": "redondo",
+      "cor": "azul",
+      "ruido": 0.13,
+      "rotacao": -3.6,
+      "dados": {
+        "cns": "175558",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "oficial": "Heloísa Pinto Lopes",
+        "cargo": "OFICIAL SUBSTITUTO",
+        "escrevente": "Rafael Rodrigues Cardoso",
+        "endereco": "Praça da Sé, nº 258, Sé, CEP 01001-000, São Paulo - SP",
+        "data_emissao": "07/07/2013",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "upper",
+        "formato_data": "hifen",
+        "rotulo_cns": "CNS nº",
+        "forma_local": "hifen",
+        "separador_linha": " · ",
+        "escala_fonte": 1.074,
+        "ordem": [
+          "titulo",
+          "serventia",
+          "filete",
+          "responsavel",
+          "endereco",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "{cidade}, ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "oficial",
+        "centro": "cns",
+        "aneis": "duplo_fino",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": false
+      },
+      "arquivo": "Stamps/teste (1)_carimbo_redondo.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 912,
+        "y": 1776,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 274,
+        "altura_px": 274,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    },
+    {
+      "semente": 1860985230,
+      "tipo": "retangular",
+      "cor": "azul",
+      "ruido": 0.57,
+      "rotacao": -4.72,
+      "dados": {
+        "cns": "175558",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "oficial": "Heloísa Pinto Lopes",
+        "cargo": "OFICIAL SUBSTITUTO",
+        "escrevente": "Rafael Rodrigues Cardoso",
+        "endereco": "Praça da Sé, nº 258, Sé, CEP 01001-000, São Paulo - SP",
+        "data_emissao": "07/07/2013",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "hifen",
+        "rotulo_cns": "Cód. CNS",
+        "forma_local": "ponto",
+        "separador_linha": " • ",
+        "escala_fonte": 0.922,
+        "ordem": [
+          "titulo",
+          "filete",
+          "endereco",
+          "filete",
+          "serventia",
+          "filete",
+          "responsavel",
+          "filete",
+          "data"
+        ],
+        "alinhamento": "esquerda",
+        "borda": "simples_reta",
+        "rotulo_oficial": "Oficial: ",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Resp.: ",
+        "prefixo_data": "Emitido em ",
+        "serventia_em_duas_linhas": true,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "local",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (1)_carimbo_retangular.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 300,
+        "y": 1806,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 446,
+        "altura_px": 275,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    }
+  ],
+  "documento_carimbado": "docs/teste (1)_carimbado.png"
+}

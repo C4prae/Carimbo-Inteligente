@@ -1,0 +1,203 @@
+{
+  "pdf": "C:\\Users\\luizf\\Desktop\\Carimbo-Inteligente\\test_images\\teste (10).pdf",
+  "pagina": 0,
+  "modelo": "qwen2.5vl:7b",
+  "semente": 668476242,
+  "faixa_ruido": [
+    0.1,
+    0.6
+  ],
+  "prob_sobreposicao": 0.3,
+  "resposta_bruta_modelo": {
+    "cns": "497497",
+    "matricula": "497497.01.55.1992.1.00172.242.0161140-98",
+    "titulo_cartorio": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "oficial": "Valentina Pereira Teixeira",
+    "escrevente": "Eduardo Rodrigues Campos",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "endereco": "Rua Felipe Schmidt, nº 196, Centro, CEP 88010-001, Florianópolis - SC",
+    "data_emissao": "07/02/2011"
+  },
+  "texto_bruto_modelo": "{\n  \"cns\": \"497497\",\n  \"matricula\": \"497497.01.55.1992.1.00172.242.0161140-98\",\n  \"titulo_cartorio\": \"REGISTRO CIVIL DAS PESSOAS NATURAIS\",\n  \"oficial\": \"Valentina Pereira Teixeira\",\n  \"escrevente\": \"Eduardo Rodrigues Campos\",\n  \"cargo\": \"OFICIAL DE REGISTRO CIVIL\",\n  \"cidade\": \"Florianópolis\",\n  \"uf\": \"SC\",\n  \"endereco\": \"Rua Felipe Schmidt, nº 196, Centro, CEP 88010-001, Florianópolis - SC\",\n  \"data_emissao\": \"07/02/2011\"\n}",
+  "campos_extraidos": {
+    "cns": "497497",
+    "uf": "SC",
+    "cidade": "Florianópolis",
+    "oficial": "Valentina Pereira Teixeira",
+    "escrevente": "Eduardo Rodrigues Campos",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "endereco": "Rua Felipe Schmidt, nº 196, Centro, CEP 88010-001, Florianópolis - SC",
+    "data_emissao": "07/02/2011"
+  },
+  "campos_descartados": {},
+  "notas": [],
+  "dados_finais": {
+    "cns": "497497",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "oficial": "Valentina Pereira Teixeira",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "escrevente": "Eduardo Rodrigues Campos",
+    "endereco": "Rua Felipe Schmidt, nº 196, Centro, CEP 88010-001, Florianópolis - SC",
+    "data_emissao": "07/02/2011",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+  },
+  "origem_dos_campos": {
+    "cns": "extraido",
+    "cidade": "extraido",
+    "uf": "extraido",
+    "oficial": "extraido",
+    "cargo": "extraido",
+    "escrevente": "extraido",
+    "endereco": "extraido",
+    "data_emissao": "extraido",
+    "titulo": "extraido"
+  },
+  "carimbos": [
+    {
+      "semente": 668477242,
+      "tipo": "redondo",
+      "cor": "preto",
+      "ruido": 0.43,
+      "rotacao": 6.18,
+      "dados": {
+        "cns": "497497",
+        "cidade": "Florianópolis",
+        "uf": "SC",
+        "oficial": "Valentina Pereira Teixeira",
+        "cargo": "OFICIAL DE REGISTRO CIVIL",
+        "escrevente": "Eduardo Rodrigues Campos",
+        "endereco": "Rua Felipe Schmidt, nº 196, Centro, CEP 88010-001, Florianópolis - SC",
+        "data_emissao": "07/02/2011",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "numerico",
+        "rotulo_cns": "Serventia",
+        "forma_local": "hifen",
+        "separador_linha": " · ",
+        "escala_fonte": 0.952,
+        "ordem": [
+          "titulo",
+          "serventia",
+          "filete",
+          "responsavel",
+          "endereco",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "{cidade}, ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "curto_oficial",
+        "arco_inferior": "data",
+        "centro": "cidade",
+        "aneis": "simples",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (10)_carimbo_redondo.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 150,
+        "y": 1710,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 342,
+        "altura_px": 342,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    },
+    {
+      "semente": 668478242,
+      "tipo": "retangular",
+      "cor": "preto",
+      "ruido": 0.37,
+      "rotacao": -7.89,
+      "dados": {
+        "cns": "497497",
+        "cidade": "Florianópolis",
+        "uf": "SC",
+        "oficial": "Valentina Pereira Teixeira",
+        "cargo": "OFICIAL DE REGISTRO CIVIL",
+        "escrevente": "Eduardo Rodrigues Campos",
+        "endereco": "Rua Felipe Schmidt, nº 196, Centro, CEP 88010-001, Florianópolis - SC",
+        "data_emissao": "07/02/2011",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "pontos",
+        "rotulo_cns": "Serventia",
+        "forma_local": "ponto",
+        "separador_linha": " | ",
+        "escala_fonte": 1.018,
+        "ordem": [
+          "titulo",
+          "filete",
+          "data",
+          "filete",
+          "responsavel",
+          "filete",
+          "serventia",
+          "filete",
+          "endereco"
+        ],
+        "alinhamento": "esquerda",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "Oficial Titular: ",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Resp.: ",
+        "prefixo_data": "Data: ",
+        "serventia_em_duas_linhas": true,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "local",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (10)_carimbo_retangular.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 804,
+        "y": 1722,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 565,
+        "altura_px": 396,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    }
+  ],
+  "documento_carimbado": "docs/teste (10)_carimbado.png"
+}

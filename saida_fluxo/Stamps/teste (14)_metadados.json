@@ -1,0 +1,198 @@
+{
+  "pdf": "C:\\Users\\luizf\\Desktop\\Carimbo-Inteligente\\test_images\\teste (14).pdf",
+  "pagina": 0,
+  "modelo": "qwen2.5vl:7b",
+  "semente": 1423229046,
+  "faixa_ruido": [
+    0.1,
+    0.6
+  ],
+  "prob_sobreposicao": 0.3,
+  "resposta_bruta_modelo": {
+    "cns": "689949",
+    "matricula": "689949.01.55.2019.1.00178.259.0055878-72",
+    "titulo_cartorio": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "oficial": "Rodrigo Vieira Almeida",
+    "escrevente": "José Nunes Teixeira",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "endereco": "Avenida Sete de Setembro, nº 44, Centro, CEP 40020-000, Salvador - BA",
+    "data_emissao": "11/08/2019"
+  },
+  "texto_bruto_modelo": "{\n  \"cns\": \"689949\",\n  \"matricula\": \"689949.01.55.2019.1.00178.259.0055878-72\",\n  \"titulo_cartorio\": \"REGISTRO CIVIL DAS PESSOAS NATURAIS\",\n  \"oficial\": \"Rodrigo Vieira Almeida\",\n  \"escrevente\": \"José Nunes Teixeira\",\n  \"cargo\": \"OFICIAL DE REGISTRO CIVIL\",\n  \"cidade\": \"Salvador\",\n  \"uf\": \"BA\",\n  \"endereco\": \"Avenida Sete de Setembro, nº 44, Centro, CEP 40020-000, Salvador - BA\",\n  \"data_emissao\": \"11/08/2019\"\n}",
+  "campos_extraidos": {
+    "cns": "689949",
+    "uf": "BA",
+    "cidade": "Salvador",
+    "oficial": "Rodrigo Vieira Almeida",
+    "escrevente": "José Nunes Teixeira",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "endereco": "Avenida Sete de Setembro, nº 44, Centro, CEP 40020-000, Salvador - BA",
+    "data_emissao": "11/08/2019"
+  },
+  "campos_descartados": {},
+  "notas": [],
+  "dados_finais": {
+    "cns": "689949",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "oficial": "Rodrigo Vieira Almeida",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "escrevente": "José Nunes Teixeira",
+    "endereco": "Avenida Sete de Setembro, nº 44, Centro, CEP 40020-000, Salvador - BA",
+    "data_emissao": "11/08/2019",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+  },
+  "origem_dos_campos": {
+    "cns": "extraido",
+    "cidade": "extraido",
+    "uf": "extraido",
+    "oficial": "extraido",
+    "cargo": "extraido",
+    "escrevente": "extraido",
+    "endereco": "extraido",
+    "data_emissao": "extraido",
+    "titulo": "extraido"
+  },
+  "carimbos": [
+    {
+      "semente": 1423230046,
+      "tipo": "redondo",
+      "cor": "azul",
+      "ruido": 0.4,
+      "rotacao": -4.33,
+      "dados": {
+        "cns": "689949",
+        "cidade": "Salvador",
+        "uf": "BA",
+        "oficial": "Rodrigo Vieira Almeida",
+        "cargo": "OFICIAL DE REGISTRO CIVIL",
+        "escrevente": "José Nunes Teixeira",
+        "endereco": "Avenida Sete de Setembro, nº 44, Centro, CEP 40020-000, Salvador - BA",
+        "data_emissao": "11/08/2019",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "numerico",
+        "rotulo_cns": "CNS",
+        "forma_local": "barra",
+        "separador_linha": " · ",
+        "escala_fonte": 0.967,
+        "ordem": [
+          "titulo",
+          "serventia",
+          "filete",
+          "responsavel",
+          "endereco",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "{cidade}, ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "curto_oficial",
+        "arco_inferior": "cns",
+        "centro": "data",
+        "aneis": "duplo_fino",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (14)_carimbo_redondo.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 312,
+        "y": 1812,
+        "nivel": 2,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 269,
+        "altura_px": 269,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    },
+    {
+      "semente": 1423231046,
+      "tipo": "retangular",
+      "cor": "azul",
+      "ruido": 0.24,
+      "rotacao": -7.56,
+      "dados": {
+        "cns": "689949",
+        "cidade": "Salvador",
+        "uf": "BA",
+        "oficial": "Rodrigo Vieira Almeida",
+        "cargo": "OFICIAL DE REGISTRO CIVIL",
+        "escrevente": "José Nunes Teixeira",
+        "endereco": "Avenida Sete de Setembro, nº 44, Centro, CEP 40020-000, Salvador - BA",
+        "data_emissao": "11/08/2019",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "pontos",
+        "rotulo_cns": "CNS",
+        "forma_local": "barra",
+        "separador_linha": " · ",
+        "escala_fonte": 1.053,
+        "ordem": [
+          "titulo",
+          "responsavel",
+          "data",
+          "serventia"
+        ],
+        "alinhamento": "esquerda",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "Oficial: ",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Resp.: ",
+        "prefixo_data": "Emitido em ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "local",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (14)_carimbo_retangular.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 936,
+        "y": 1830,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 541,
+        "altura_px": 283,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    }
+  ],
+  "documento_carimbado": "docs/teste (14)_carimbado.png"
+}

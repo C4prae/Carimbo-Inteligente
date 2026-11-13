@@ -1,0 +1,199 @@
+{
+  "pdf": "C:\\Users\\luizf\\Desktop\\Carimbo-Inteligente\\test_images\\teste (6).pdf",
+  "pagina": 0,
+  "modelo": "qwen2.5vl:7b",
+  "semente": 1905656676,
+  "faixa_ruido": [
+    0.1,
+    0.6
+  ],
+  "prob_sobreposicao": 0.3,
+  "resposta_bruta_modelo": {
+    "cns": "022219",
+    "matricula": "022219.01.55.2005.1.00045.282.0151909-52",
+    "titulo_cartorio": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "oficial": "Heloísa Freitas Barbosa",
+    "escrevente": "Luana Barbosa Correia",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "endereco": "Rua Felipe Schmidt, nº 596, Centro, CEP 88010-001, Florianópolis - SC",
+    "data_emissao": "14/07/2017"
+  },
+  "texto_bruto_modelo": "{\n  \"cns\": \"022219\",\n  \"matricula\": \"022219.01.55.2005.1.00045.282.0151909-52\",\n  \"titulo_cartorio\": \"REGISTRO CIVIL DAS PESSOAS NATURAIS\",\n  \"oficial\": \"Heloísa Freitas Barbosa\",\n  \"escrevente\": \"Luana Barbosa Correia\",\n  \"cargo\": \"OFICIAL SUBSTITUTO\",\n  \"cidade\": \"Florianópolis\",\n  \"uf\": \"SC\",\n  \"endereco\": \"Rua Felipe Schmidt, nº 596, Centro, CEP 88010-001, Florianópolis - SC\",\n  \"data_emissao\": \"14/07/2017\"\n}",
+  "campos_extraidos": {
+    "cns": "022219",
+    "uf": "SC",
+    "cidade": "Florianópolis",
+    "oficial": "Heloísa Freitas Barbosa",
+    "escrevente": "Luana Barbosa Correia",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "endereco": "Rua Felipe Schmidt, nº 596, Centro, CEP 88010-001, Florianópolis - SC",
+    "data_emissao": "14/07/2017"
+  },
+  "campos_descartados": {},
+  "notas": [],
+  "dados_finais": {
+    "cns": "022219",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "oficial": "Heloísa Freitas Barbosa",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "escrevente": "Luana Barbosa Correia",
+    "endereco": "Rua Felipe Schmidt, nº 596, Centro, CEP 88010-001, Florianópolis - SC",
+    "data_emissao": "14/07/2017",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+  },
+  "origem_dos_campos": {
+    "cns": "extraido",
+    "cidade": "extraido",
+    "uf": "extraido",
+    "oficial": "extraido",
+    "cargo": "extraido",
+    "escrevente": "extraido",
+    "endereco": "extraido",
+    "data_emissao": "extraido",
+    "titulo": "extraido"
+  },
+  "carimbos": [
+    {
+      "semente": 1905657676,
+      "tipo": "redondo",
+      "cor": "preto",
+      "ruido": 0.41,
+      "rotacao": 1.33,
+      "dados": {
+        "cns": "022219",
+        "cidade": "Florianópolis",
+        "uf": "SC",
+        "oficial": "Heloísa Freitas Barbosa",
+        "cargo": "OFICIAL SUBSTITUTO",
+        "escrevente": "Luana Barbosa Correia",
+        "endereco": "Rua Felipe Schmidt, nº 596, Centro, CEP 88010-001, Florianópolis - SC",
+        "data_emissao": "14/07/2017",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "upper",
+        "formato_data": "extenso",
+        "rotulo_cns": "CNS nº",
+        "forma_local": "barra",
+        "separador_linha": " · ",
+        "escala_fonte": 1.031,
+        "ordem": [
+          "titulo",
+          "serventia",
+          "filete",
+          "responsavel",
+          "endereco",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "{cidade}, ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "data",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": false
+      },
+      "arquivo": "Stamps/teste (6)_carimbo_redondo.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 180,
+        "y": 90,
+        "nivel": 1,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 342,
+        "altura_px": 342,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    },
+    {
+      "semente": 1905658676,
+      "tipo": "retangular",
+      "cor": "preto",
+      "ruido": 0.21,
+      "rotacao": -0.09,
+      "dados": {
+        "cns": "022219",
+        "cidade": "Florianópolis",
+        "uf": "SC",
+        "oficial": "Heloísa Freitas Barbosa",
+        "cargo": "OFICIAL SUBSTITUTO",
+        "escrevente": "Luana Barbosa Correia",
+        "endereco": "Rua Felipe Schmidt, nº 596, Centro, CEP 88010-001, Florianópolis - SC",
+        "data_emissao": "14/07/2017",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "pontos",
+        "rotulo_cns": "CNS",
+        "forma_local": "hifen",
+        "separador_linha": " - ",
+        "escala_fonte": 1.015,
+        "ordem": [
+          "titulo",
+          "filete",
+          "serventia",
+          "filete",
+          "responsavel"
+        ],
+        "alinhamento": "esquerda",
+        "borda": "dupla_reta",
+        "rotulo_oficial": "",
+        "mostrar_cargo": false,
+        "mostrar_escrevente": false,
+        "rotulo_escrevente": "Resp.: ",
+        "prefixo_data": "Data: ",
+        "serventia_em_duas_linhas": true,
+        "data_na_serventia": true,
+        "arco_superior": "titulo",
+        "arco_inferior": "local",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (6)_carimbo_retangular.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 972,
+        "y": 1836,
+        "nivel": 3,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 445,
+        "altura_px": 168,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    }
+  ],
+  "documento_carimbado": "docs/teste (6)_carimbado.png"
+}

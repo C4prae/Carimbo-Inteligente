@@ -1,0 +1,202 @@
+{
+  "pdf": "C:\\Users\\luizf\\Desktop\\Carimbo-Inteligente\\test_images\\teste (3).pdf",
+  "pagina": 0,
+  "modelo": "qwen2.5vl:7b",
+  "semente": 489834557,
+  "faixa_ruido": [
+    0.1,
+    0.6
+  ],
+  "prob_sobreposicao": 0.3,
+  "resposta_bruta_modelo": {
+    "cns": "543594",
+    "matricula": "543594.01.55.2022.1.00018.001.0169700-99",
+    "titulo_cartorio": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "oficial": "Bruna Silva Souza",
+    "escrevente": "Alice Lopes Moreira",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "endereco": "Avenida Eduardo Ribeiro, nº 189, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "20/11/2023"
+  },
+  "texto_bruto_modelo": "{\n  \"cns\": \"543594\",\n  \"matricula\": \"543594.01.55.2022.1.00018.001.0169700-99\",\n  \"titulo_cartorio\": \"REGISTRO CIVIL DAS PESSOAS NATURAIS\",\n  \"oficial\": \"Bruna Silva Souza\",\n  \"escrevente\": \"Alice Lopes Moreira\",\n  \"cargo\": \"OFICIAL DE REGISTRO CIVIL\",\n  \"cidade\": \"Manaus\",\n  \"uf\": \"AM\",\n  \"endereco\": \"Avenida Eduardo Ribeiro, nº 189, Centro, CEP 69005-040, Manaus - AM\",\n  \"data_emissao\": \"20/11/2023\"\n}",
+  "campos_extraidos": {
+    "cns": "543594",
+    "uf": "AM",
+    "cidade": "Manaus",
+    "oficial": "Bruna Silva Souza",
+    "escrevente": "Alice Lopes Moreira",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "endereco": "Avenida Eduardo Ribeiro, nº 189, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "20/11/2023"
+  },
+  "campos_descartados": {},
+  "notas": [],
+  "dados_finais": {
+    "cns": "543594",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "oficial": "Bruna Silva Souza",
+    "cargo": "OFICIAL DE REGISTRO CIVIL",
+    "escrevente": "Alice Lopes Moreira",
+    "endereco": "Avenida Eduardo Ribeiro, nº 189, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "20/11/2023",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+  },
+  "origem_dos_campos": {
+    "cns": "extraido",
+    "cidade": "extraido",
+    "uf": "extraido",
+    "oficial": "extraido",
+    "cargo": "extraido",
+    "escrevente": "extraido",
+    "endereco": "extraido",
+    "data_emissao": "extraido",
+    "titulo": "extraido"
+  },
+  "carimbos": [
+    {
+      "semente": 489835557,
+      "tipo": "redondo",
+      "cor": "azul",
+      "ruido": 0.54,
+      "rotacao": 3.96,
+      "dados": {
+        "cns": "543594",
+        "cidade": "Manaus",
+        "uf": "AM",
+        "oficial": "Bruna Silva Souza",
+        "cargo": "OFICIAL DE REGISTRO CIVIL",
+        "escrevente": "Alice Lopes Moreira",
+        "endereco": "Avenida Eduardo Ribeiro, nº 189, Centro, CEP 69005-040, Manaus - AM",
+        "data_emissao": "20/11/2023",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "numerico",
+        "rotulo_cns": "Serventia",
+        "forma_local": "hifen",
+        "separador_linha": " | ",
+        "escala_fonte": 0.922,
+        "ordem": [
+          "titulo",
+          "serventia",
+          "filete",
+          "responsavel",
+          "endereco",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "{cidade}, ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "oficial",
+        "centro": "cidade",
+        "aneis": "duplo_fino",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": false
+      },
+      "arquivo": "Stamps/teste (3)_carimbo_redondo.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 1002,
+        "y": 1770,
+        "nivel": 1,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 279,
+        "altura_px": 279,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    },
+    {
+      "semente": 489836557,
+      "tipo": "retangular",
+      "cor": "azul",
+      "ruido": 0.25,
+      "rotacao": 3.13,
+      "dados": {
+        "cns": "543594",
+        "cidade": "Manaus",
+        "uf": "AM",
+        "oficial": "Bruna Silva Souza",
+        "cargo": "OFICIAL DE REGISTRO CIVIL",
+        "escrevente": "Alice Lopes Moreira",
+        "endereco": "Avenida Eduardo Ribeiro, nº 189, Centro, CEP 69005-040, Manaus - AM",
+        "data_emissao": "20/11/2023",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "hifen",
+        "rotulo_cns": "Serventia",
+        "forma_local": "hifen",
+        "separador_linha": " · ",
+        "escala_fonte": 1.071,
+        "ordem": [
+          "titulo",
+          "filete",
+          "data",
+          "filete",
+          "endereco",
+          "filete",
+          "responsavel",
+          "serventia"
+        ],
+        "alinhamento": "centro",
+        "borda": "simples_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "Data: ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "local",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (3)_carimbo_retangular.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 270,
+        "y": 1722,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 606,
+        "altura_px": 369,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    }
+  ],
+  "documento_carimbado": "docs/teste (3)_carimbado.png"
+}

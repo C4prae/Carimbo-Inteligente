@@ -2,12 +2,11 @@ from pathlib import Path
 from smartstamp import SmartStamp
  
 if __name__ == "__main__":
-    imgpath = Path("test_images/teste (2).pdf")
+    imgpath = Path("saida_fluxo/docs/teste (1)_carimbado.png")
  
     doc = SmartStamp(imgpath)
     doc.findStamp()
-    #doc.isolateStamp()
-    doc.pln()
- 
-    print(f"Tipo do documento: {doc.tipo_documento.value}")
+    doc.cropStamp()
+    #doc.pln()
+
  

@@ -1,0 +1,201 @@
+{
+  "pdf": "C:\\Users\\luizf\\Desktop\\Carimbo-Inteligente\\test_images\\teste (16).pdf",
+  "pagina": 0,
+  "modelo": "qwen2.5vl:7b",
+  "semente": 898879282,
+  "faixa_ruido": [
+    0.1,
+    0.6
+  ],
+  "prob_sobreposicao": 0.3,
+  "resposta_bruta_modelo": {
+    "cns": "928032",
+    "matricula": "928032.01.55.2012.1.00300.003.0054342-75",
+    "titulo_cartorio": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "oficial": "Gabriel Dias Correia",
+    "escrevente": "Arthur Martins Gomes",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "endereco": "Avenida Eduardo Ribeiro, nº 279, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "12/01/2014"
+  },
+  "texto_bruto_modelo": "{\n  \"cns\": \"928032\",\n  \"matricula\": \"928032.01.55.2012.1.00300.003.0054342-75\",\n  \"titulo_cartorio\": \"REGISTRO CIVIL DAS PESSOAS NATURAIS\",\n  \"oficial\": \"Gabriel Dias Correia\",\n  \"escrevente\": \"Arthur Martins Gomes\",\n  \"cargo\": \"OFICIAL SUBSTITUTO\",\n  \"cidade\": \"Manaus\",\n  \"uf\": \"AM\",\n  \"endereco\": \"Avenida Eduardo Ribeiro, nº 279, Centro, CEP 69005-040, Manaus - AM\",\n  \"data_emissao\": \"12/01/2014\"\n}",
+  "campos_extraidos": {
+    "cns": "928032",
+    "uf": "AM",
+    "cidade": "Manaus",
+    "oficial": "Gabriel Dias Correia",
+    "escrevente": "Arthur Martins Gomes",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "endereco": "Avenida Eduardo Ribeiro, nº 279, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "12/01/2014"
+  },
+  "campos_descartados": {},
+  "notas": [],
+  "dados_finais": {
+    "cns": "928032",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "oficial": "Gabriel Dias Correia",
+    "cargo": "OFICIAL SUBSTITUTO",
+    "escrevente": "Arthur Martins Gomes",
+    "endereco": "Avenida Eduardo Ribeiro, nº 279, Centro, CEP 69005-040, Manaus - AM",
+    "data_emissao": "12/01/2014",
+    "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+  },
+  "origem_dos_campos": {
+    "cns": "extraido",
+    "cidade": "extraido",
+    "uf": "extraido",
+    "oficial": "extraido",
+    "cargo": "extraido",
+    "escrevente": "extraido",
+    "endereco": "extraido",
+    "data_emissao": "extraido",
+    "titulo": "extraido"
+  },
+  "carimbos": [
+    {
+      "semente": 898880282,
+      "tipo": "redondo",
+      "cor": "preto",
+      "ruido": 0.56,
+      "rotacao": -6.54,
+      "dados": {
+        "cns": "928032",
+        "cidade": "Manaus",
+        "uf": "AM",
+        "oficial": "Gabriel Dias Correia",
+        "cargo": "OFICIAL SUBSTITUTO",
+        "escrevente": "Arthur Martins Gomes",
+        "endereco": "Avenida Eduardo Ribeiro, nº 279, Centro, CEP 69005-040, Manaus - AM",
+        "data_emissao": "12/01/2014",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "upper",
+        "formato_data": "numerico",
+        "rotulo_cns": "Cód. CNS",
+        "forma_local": "ponto",
+        "separador_linha": " - ",
+        "escala_fonte": 1.028,
+        "ordem": [
+          "titulo",
+          "serventia",
+          "filete",
+          "responsavel",
+          "endereco",
+          "data"
+        ],
+        "alinhamento": "centro",
+        "borda": "dupla_arredondada",
+        "rotulo_oficial": "",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Escrevente: ",
+        "prefixo_data": "{cidade}, ",
+        "serventia_em_duas_linhas": false,
+        "data_na_serventia": false,
+        "arco_superior": "titulo",
+        "arco_inferior": "local_data",
+        "centro": "cargo",
+        "aneis": "sem_interno",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (16)_carimbo_redondo.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 648,
+        "y": 1758,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 319,
+        "altura_px": 319,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    },
+    {
+      "semente": 898881282,
+      "tipo": "retangular",
+      "cor": "preto",
+      "ruido": 0.3,
+      "rotacao": -7.68,
+      "dados": {
+        "cns": "928032",
+        "cidade": "Manaus",
+        "uf": "AM",
+        "oficial": "Gabriel Dias Correia",
+        "cargo": "OFICIAL SUBSTITUTO",
+        "escrevente": "Arthur Martins Gomes",
+        "endereco": "Avenida Eduardo Ribeiro, nº 279, Centro, CEP 69005-040, Manaus - AM",
+        "data_emissao": "12/01/2014",
+        "titulo": "REGISTRO CIVIL DAS PESSOAS NATURAIS"
+      },
+      "layout": {
+        "caixa_nomes": "title",
+        "formato_data": "pontos",
+        "rotulo_cns": "CNS",
+        "forma_local": "hifen",
+        "separador_linha": " - ",
+        "escala_fonte": 0.994,
+        "ordem": [
+          "titulo",
+          "filete",
+          "responsavel",
+          "filete",
+          "endereco",
+          "filete",
+          "serventia"
+        ],
+        "alinhamento": "esquerda",
+        "borda": "simples_reta",
+        "rotulo_oficial": "Oficial: ",
+        "mostrar_cargo": true,
+        "mostrar_escrevente": true,
+        "rotulo_escrevente": "Resp.: ",
+        "prefixo_data": "",
+        "serventia_em_duas_linhas": true,
+        "data_na_serventia": true,
+        "arco_superior": "titulo",
+        "arco_inferior": "local",
+        "centro": "cns",
+        "aneis": "completo",
+        "separador_arco": "estrelas",
+        "estrela_centro": true,
+        "dou_fe": true
+      },
+      "arquivo": "Stamps/teste (16)_carimbo_retangular.png",
+      "aplicado": true,
+      "posicao": {
+        "x": 180,
+        "y": 1728,
+        "nivel": 0,
+        "cobertura_texto": 0.0,
+        "max_palavra_coberta": 0.0,
+        "largura_px": 484,
+        "altura_px": 295,
+        "escala": 1.0
+      },
+      "aparencia": {
+        "saturacao": 0.62,
+        "clareza": 0.18,
+        "opacidade": 0.8,
+        "papel": 0.55,
+        "grao": 0.012
+      }
+    }
+  ],
+  "documento_carimbado": "docs/teste (16)_carimbado.png"
+}
